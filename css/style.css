@@ -1,0 +1,106 @@
+body{
+  margin: 0px;
+  padding: 0;
+  font-family:sans-serif;
+}
+.wrapper{
+  width: 80%;
+  overflow:hidden;
+  margin: auto;
+  /*border:1px solid red;*/
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+  background-color:#422479;;
+  color: white;
+}
+header h1{
+  float: left;
+  font-family: sans-serif;
+}
+.right{
+  float: right;
+}
+.right table{
+  margin: 10px 0px;
+}
+
+.right td{
+    padding-left: 8px;
+}
+.right table td a{
+  font-family:sans-serif;
+  font-size:20px;
+  color: white;
+  text-decoration: none;
+
+}
+.right table td a button{
+  background-color:#365899;
+  color: white;
+  padding: 3px 8px;
+  text-decoration: none;
+  border: 1px solid #fff;
+   margin-left: 8px; 
+}
+
+section{
+  background-color: #E9EBEE;
+  background-size: cover;
+}
+section .connect{
+  font-weight: bold;
+  word-spacing: 0.2px;
+  float: left;
+  /*border:1px solid red;*/
+
+}
+section .create{
+  float: right;
+  width: 40%;
+}
+.create h1{
+  font-size: 35px;
+}
+ 
+ label .birthday{
+  min-height: 10px;
+  border-radius: 5px;
+  padding:5px;
+}
+
+.create input{
+  height: 40px;
+  border-radius: 5px;
+  border: transparent;
+  padding: 10px;
+}
+.create .set{
+  width: 80%;
+}
+.create .bg{
+  height: auto;
+}
+.create button{
+  padding: 15px 60px;
+  background-color: #5D9149;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 7px;
+}
+
+label{
+    display: block;
+    padding: 20px 0px;
+    font-weight: bold;
+    color: grey;
+}
+footer
+{
+  background-color: #FFFFFF;
+/*}*/
